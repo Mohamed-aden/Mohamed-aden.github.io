@@ -1,0 +1,21 @@
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: azure;
+}
+h3 {
+  color: cadetblue;
+  font-family: cursive;
+}
+
+body {
+  background-color: cornsilk;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  border-radius: 30%;
+}
