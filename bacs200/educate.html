@@ -1,110 +1,121 @@
 <!DOCTYPE html>
 <html>
-<head> <title>Educate me page</title>
-    <style>
-        *{
-  margin: 0;
-  padding: 0;
-  
-}
-h3{
-  background-color: #009879;
-  height: 3rem;
-  text-align: center;
-}
+
+<head>
+  <title>Educate me page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    h3 {
+      background-color: #009879;
+      height: 3rem;
+      text-align: center;
+    }
+
+    .intro{
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+    }
 
 
 
 
 
-table {
-  font-family: sans-serif; 
-  line-height: 12vh;
-  
- 
-}
+    table {
+      font-family: sans-serif;
+      line-height: 12vh;
+      
 
-.content-table {
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  min-width: 400px;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
 
-.content-table thead tr {
-  background-color: #009879;
-  color: #ffffff;
-  text-align: left;
-  font-weight: bold;
-}
+    }
 
-.content-table th,
-.content-table td {
-  padding: 12px 15px;
-}
+    .content-table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.9em;
+      min-width: 400px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      
+    }
 
-.content-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
+    .content-table thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+    }
 
-.content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
+    .content-table th,
+    .content-table td {
+      padding: 12px 15px;
+    }
 
-.content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
+    .content-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
 
-.content-table tbody tr.active-row {
-  font-weight: bold;
-  color: #009879;
-}
-        
-        
-    </style>
-    
-    </head>
+    .content-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+
+    .content-table tbody tr:last-of-type {
+      border-bottom: 2px solid #009879;
+    }
+
+    .content-table tbody tr.active-row {
+      font-weight: bold;
+      color: #009879;
+    }
+  </style>
+
+</head>
+
 <body>
 
-<div class="welcome">
-  <h3>Welcome to my educational page</h3>
-  <p>Here is a list of my favorite video on Tedx Talks.  </p>
-</div>
+  <div class="welcome">
+    <h3>Welcome to my educational page</h3>
+    <p class="intro">Here is a list of my favorite video on Tedx Talks. </p>
+  </div>
 
 
-<table class="content-table">
-  <thead>
-    <tr>
-      <th>Rank</th>
-      <th>Name of the speaker</th>
-      <th>Tittle of theSpeech</th>
-      <th>Embeded Video to watch</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Scott Geller</td>
-      <td>The psychology of self motivation</td>
-      <td><a href="https://youtu.be/7sxpKhIbr0E">TEDxVirginia Tech</a></td>
-    </tr>
-    <tr class="active-row">
-      <td>2</td>
-      <td>Sean Stephensen</td>
-      <td>The prison of your mind</td>
-      <td><a href="https://youtu.be/VaRO5-V1uK0">TEDxIronwoodStatePrison</a></td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Arthur Benjamin</td>
-      <td>Faster than a calculator</td>
-      <td><a href="https://youtu.be/e4PTvXtz4GM">TEDxOxford</a></td>
-    </tr>
-  </tbody>
-</table>
+  <table class="content-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name of the speaker</th>
+        <th>Tittle of theSpeech</th>
+        <th>Embeded Video to watch</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+
+        <td>1</td>
+        <td>Scott Geller</td>
+        <td>The psychology of self motivation</td>
+        <td><a href="https://youtu.be/7sxpKhIbr0E">TEDxVirginia Tech</a></td>
+      </tr>
+      <tr class="active-row">
+        <td>2</td>
+        <td>Sean Stephensen</td>
+        <td>The prison of your mind</td>
+        <td><a href="https://youtu.be/VaRO5-V1uK0">TEDxIronwoodStatePrison</a></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Arthur Benjamin</td>
+        <td>Faster than a calculator</td>
+        <td><a href="https://youtu.be/e4PTvXtz4GM">TEDxOxford</a></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 </body>
