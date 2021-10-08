@@ -6,6 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Exo+2:wght@300&family=Montserrat:wght@200&display=swap');
+    *{
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Exo 2', sans-serif;
+    }
+    h1{
+        text-transform: uppercase;
+        font-family: 'Cormorant Garamond', serif;
+        height: 20px 20px;
+        background-color: #38A3A5;
+        text-align: center;
+    }
     table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -13,10 +26,19 @@
     }
 
  td, th {
-  border: 1px solid #dddddd;
+  border: 2px solid #706969;
   text-align: left;
   padding: 8px;
     }
+        th{
+            background-color: #A2D2FF;
+        }
+        .Alias{
+            color: #FF0000;
+        }
+        .heros{
+            list-style: square;
+        }
 
     
     img{
@@ -30,19 +52,28 @@
     
 </head>
 <body>
-        <!--The navigation bar-->
-   <div>
-       <nav>
-           <ul>
-               <a href="#">Home</a>
-               <a href="#">Contacts</a>
-               <a href="#">About</a>
-           </ul>
-       </nav>
-   </div>
+        
    <!--The heros and their info-->
    <div>
-    <h1>Superheros</h3>
+    <h1>Superheros</h3> <br>
+
+        <div>
+
+             <p>There are several themed superheros in the American history.
+                 Here are my top 5 superheros that I personally decided to share them with you.
+            </p> <br>
+
+            <ul class="heros">
+                <li>The Flash</li>
+                <li>The Spiderman</li>
+                <li>The Wonder women</li>
+                <li>The Thor</li>
+                <li>The Incredible hulk</li>
+            </ul> <br>
+
+
+
+        </div>
       <table>
           <tr>
               <th>Hero</th>
@@ -54,7 +85,7 @@
           <tr>
               <td><img src="/images/TheFlash.jpg" alt="The flash picture"></td>
               <td>Barry" Allen</td>
-              <td>The Flash</td>
+              <td class="Alias">The Flash</td>
               <td>The flash can run at a lightening speed</td>
               <td>At cool temperature, his molecules cannot vibrate at
                    their normal speed if the cold slows them down.
@@ -65,7 +96,7 @@
           <tr>
             <td><img src="/images/spiderman.jpg" alt="The spiderman picture"></td>
             <td>Peter Parker</td>
-            <td>The Spiderman</td>
+            <td class="Alias">The Spiderman</td>
             <td>The spiderman has superhuman strength, speeed, reflexes and durability, 
                 He also has a healing factor and a 'spider-sense' alert.
             </td>
@@ -78,7 +109,7 @@
         <tr>
             <td><img src="/images/Wonderwomen.jpg" alt="The wonder women picture"></td>
             <td>Princess Diana</td>
-            <td>The WonderWomen</td>
+            <td class="Alias">The WonderWomen</td>
             <td>Wonder women has superior strength, speed, and agility.</td>
             <td>
                 Wonder woman's weakness are: being bound by a man (obsolete),
@@ -92,7 +123,7 @@
         <tr>
             <td><img src="/images/thor.jpg" alt="The thor picture"></td>
             <td>Chris Hemsworth</td>
-            <td>The Thor</td>
+            <td class="Alias">The Thor</td>
             <td> The Thor possesses superhuman strength, speed,
                   agility, durability and immunity to most diseases.
             </td>
@@ -104,7 +135,7 @@
 
         <td><img src="/images/hulk.jpg" alt="The hulk picture"></td>
             <td>Bruce Banner</td>
-            <td>The Incredible hulk</td>
+            <td class="Alias">The Incredible hulk</td>
             <td> The Thor has unlimited strength, speed, prolonged lifespan, survive in space
                 , and breath underwater..
             </td>
