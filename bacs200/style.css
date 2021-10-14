@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:ital@1&display=swap');
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    line-height: 3rem;
+}
+h1,h2, h3,div{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+body{
+    background-color: #B2F9FC;
+    border: 2px solid black;
+   
+}
+form{
+   text-align: Center;
+}
+hr{
+    border: 2px solid black;
+}
+.footer{
+    text-align: center;
+    /*word-spacing: 12px; */
+}
