@@ -5,11 +5,74 @@
     
    
 }
+
+
 .navbar{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
 }
+/* front page  */
+#frontpage{
+    background-color: #FEFBF3;
+}
+.title-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    padding-top: 100px;
+   
+
+}
 
 .somairline{
-    transform: rotate(20deg);
+    transform: rotate(0deg);
+}
+
+/* Whats special in the airline */
+
+#Features{
+    padding: 7%;
+    background-color: #FEFBF3;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: blueviolet;
+}
+
+/* Destinations pics */
+
+#destination{
+   
+    text-align: center;
+    background-color: #ef8172;
+}
+.destinationImg{
+    width: 30%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Press pics */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3% ;
+
+}
+.press-logo{
+
+    width: 10%;
+    margin: 20px 20px 50px;
+
 }
