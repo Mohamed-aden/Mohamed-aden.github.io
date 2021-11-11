@@ -13,7 +13,7 @@
 }
 /* front page  */
 #frontpage{
-    background-color: #FEFBF3;
+    background-color: #94DAFF;
 }
 .title-text{
     font-family: 'Ubuntu', sans-serif;
@@ -51,14 +51,15 @@
 /* Destinations pics */
 
 h4{
-    font-family: 'Montserrat' serif;
+   
+    font-family: 'Playfair Display', serif;
 
 }
 
 #destination{
    
     text-align: center;
-    background-color: #ef8172;
+    background-color: #69DADB;
 }
 .destinationImg{
     width: 20%;
@@ -70,7 +71,7 @@ h4{
 }
 /* Press pics */
 #press{
-    background-color: #ef8172;
+    background-color: #69DADB;
     text-align: center;
     padding-bottom: 3% ;
 
