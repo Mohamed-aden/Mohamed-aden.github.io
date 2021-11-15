@@ -5,12 +5,10 @@
 
 h3 {
     font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
     font-weight: bold;
    
-    font-size: 3rem;
-    text-transform: uppercase;
-
-    line-height: 1.5;
 }
 
 
@@ -19,7 +17,7 @@ h3 {
 .navbar {
     font-family: 'Ubuntu', sans-serif;
     padding-bottom: 4.5rem;
-    background-color: #406343;
+    background-color: #C85C5C;
   
 }
 
@@ -47,6 +45,11 @@ h3 {
 }
 
 .carousel-caption{
-    background-color: #0f0f0f;
-    border-radius: 10px 20px;
+    background-color: #3F3351;
+    border-radius: 20px 40px;
+}
+
+.icon{
+    color: #C85C5C;
+    padding: 1% 7%;
 }
