@@ -31,11 +31,12 @@ h3 {
     padding: 0 18px;
 }
 
-.nav-link {
+.nav-link a {
     font-family: 'Ubuntu-Bold', sans-serif;
     text-transform: italic;
-    font-size: 1.2rem;
+    font-weight: bold;
 }
+
 
 /*Carousal*/
 
@@ -48,8 +49,13 @@ h3 {
     background-color: #3F3351;
     border-radius: 20px 40px;
 }
-
+/* Main body  */
 .icon{
     color: #C85C5C;
     padding: 1% 7%;
+}
+
+.bottom-icon{
+    margin: 1%;
+    color: #C85C5C;
 }
