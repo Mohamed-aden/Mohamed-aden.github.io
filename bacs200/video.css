@@ -1,6 +1,7 @@
 *{
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
+   
 }
 
 h3 {
@@ -35,6 +36,18 @@ h3 {
     font-family: 'Ubuntu-Bold', sans-serif;
     text-transform: italic;
     font-weight: bold;
+}
+/* Front page  */
+.title{
+   background-color: #C85C5C;
+   position: relative;
+   
+}
+h4{
+   padding: 40px;
+    text-shadow: 2px 2px #ff0000;
+    text-transform: uppercase;
+    color: bisque;
 }
 
 
