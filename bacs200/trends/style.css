@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar  */
+
+#navigation-bar{
+    align-items: justify-content-center;
+    background-color: #FFAB4C;
+    color: #94DAFF;
+    padding: 10px;
+}
+
+.nav-item a {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 30px;
+    font-weight: bold;
+   
+}
+
+.navbar-brand h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Title section  */
+
+#title{
+    align-items: center;
+}
+
+h2{
+    align-items: center;
+}
