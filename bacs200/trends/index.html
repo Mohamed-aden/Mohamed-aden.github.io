@@ -14,11 +14,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat:wght@600&family=Poppins&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:ital@1&family=Ubuntu:wght@500&display=swap"
         rel="stylesheet">
 
     <!-- CSS stylesheet  -->
     <link rel="stylesheet" href="/bacs200/trends/style.css">
+
+    <!-- Font awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 
     <title>NewsDay!</title>
 </head>
@@ -26,10 +31,10 @@
 <body>
     <!-- Navbar of the blog  -->
     <section id="navigation-bar">
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <h3 class="brand">GreeleyNewsDay</h3>
+                    <img src="/images/logo43-removebg-preview (1).png" alt="" class="img-brand img-fluid">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -37,14 +42,21 @@
                 </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav ms-auto text-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Trends</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"><i
+                                    class="icon fas fa-dice-d6"></i> Trends</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Trends on Education</a>
+                                <a href="#" class="dropdown-item">Trends on Technology</a>
+                                <a href="#" class="dropdown-item">Trends on Politics</a>
+                                <a href="#" class="dropdown-item">Trends on Global economies</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Contact </a>
+                            <a class="nav-link" href=""><i class="icon fas fa-phone-square"></i> Contact </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
+                            <a class="nav-link" href=""><i class="icon fas fa-home"></i> Home</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -59,29 +71,92 @@
 
     <section id="title">
 
-        <div class="row">
+        <div class="row text-center">
             <div class="col-lg-6">
-                <h2> Welcome to the GreeleyNewsDay, your local news reporters </h2>
+                <h2 class="title-welcome"> Welcome to the GreeleyNewsDay </h2>
+                <p class="first-paragraph">- Your local news reporters -</p>
             </div>
             <div class="col-lg-6">
 
-                <img src="/images/City-of-Greeley-logo-.png" alt="Greeley pictures" class="img-fluid"
-                    style="width: 50%;">
+                <img class="city-logo" src="/images/City-of-Greeley-logo--removebg-preview.png" alt="Greeley pictures"
+                    class=" picture-one img-fluid" style="width: 40%;">
 
             </div>
         </div>
 
     </section>
 
+    <section id="news">
+        <div class="container pt-5">
+            <h3>Latest News on Politics</h3>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body ">
+                            <h5 class="card-title"> <strong> Denver issues ‘vax or mask’ mandate, joining metro counties
+                                    in new push to fight COVID surge </strong> </h5>
+                            <img src="/images/news.png" alt="new images" class="news-image img-fluid">
+                            <p class="card-text"> Denver will join most of the metro area in once again requiring masks
+                                be worn in indoor public places starting Wednesday, though businesses can be exempted if
+                                they demonstrate they’re requiring employees and ...
+                            </p>
+                            <a href="https://www.greeleytribune.com/2021/11/24/denver-mask-mandate/"
+                                class="btn btn-primary">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong> House moves toward OK of Dems’ sweeping social, climate
+                                    bill</strong></h5>
+                                   
+                            <img src="/images/new1.png" alt="news image" class="news-image img-fluid">
+                            <p class="card-text"><strong>WASHINGTON</strong> - A divided House moved toward passage
+                                Thursday of Democrats’ expansive social and environment bill as new cost estimates from
+                                Congress’ top fiscal analyst suggested that moderate lawmakers’ spending and ...
+                            </p>
+                            <a href="https://www.greeleytribune.com/2021/11/19/house-democrats-social-climate-bill/"
+                                class="btn btn-primary">See more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Colorado voters to decide on whether to cut income taxes on the 2022 ballot</strong></h5>
+                            <p>Voters approved an income tax reduction in 2020 and the same backers are behind next year’s initiative</p>
+                            <img src="/images/new2.png" alt="news image" class="news-image img-fluid">
+                            <p class="card-text"><strong>COLORADO</strong> - voters will be asked once again if they want to reduce the state’s income tax rate, this time on the November 2022 ballot.
+                            </p>
+                            <a href="https://www.greeleytribune.com/2021/11/18/colorado-election-2022-income-tax-cut/"
+                                class="btn btn-primary">See more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
+    </section>
 
+    <section id="footer">
+        <div class="container-fluid">
+            <footer class="page-footer bg-success ">
 
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                  <a href="#"> GreeleyNewsDay.com</a>
+                </div>
+                <!-- Copyright -->
+          
+              </footer>
+        </div>
 
+        
 
-
-
-
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
