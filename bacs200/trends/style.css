@@ -55,3 +55,14 @@ h3{
     font-style: italic;
     font-weight: 900;
 }
+
+/* trend  */
+
+.card-title{
+  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-text{
+    font-family: 'cursive', sans-serif;
+}
