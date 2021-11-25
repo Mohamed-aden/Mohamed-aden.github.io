@@ -8,7 +8,7 @@
 
 #navigation-bar{
     align-items: justify-content-center;
-    background-color: #b8b6c7;
+    background-color: #2F86A6;
     color: #94DAFF;
     padding: 10px;
 }
@@ -38,7 +38,7 @@
 
 #title{
     padding: 2% 7%;
-    background-color: #bbbecc;
+    background-color: #2F86A6;
 }
 .title-welcome{
     font-family: 'Merriweather Sans', sans-serif;
@@ -67,6 +67,7 @@ h3{
 .card-text{
     font-family: 'Poppins', sans-serif;
 }
+/* Footer  */
 
 .site-footer
 {
